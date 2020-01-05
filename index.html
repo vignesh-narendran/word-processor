@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Word Processor</title>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+    <link href="/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="canvas">
+            <table>
+                <tr>
+                    <td>
+                        <div class="controls">
+                            <table class="controls-table">
+                                <tr>
+                                    <td>
+                                        <input type="button" class="biu-btn" id="bold-btn" value="B" />
+                                        <input type="button" class="biu-btn" id="italic-btn" value="i" />
+                                        <input type="button" class="biu-btn" id="underline-btn" value="U" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="button" class="size-btn" id="font-inc-btn" value="A&#9650" />
+                                        <input type="button" class="size-btn" id="font-dec-btn" value="A&#9660" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="font-chooser">
+                                            <select>
+                                                <option value="Times New Roman">Times New Roman</option>
+                                                <option value="Helvetica">Helvetica</option>
+                                                <option value="Verdana">Verdana</option>
+                                                <option value="Georgia">Georgia</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="textbox">
+                            <textarea rows="4" cols="50" class="textarea" name="text" wrap="soft"></textarea>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

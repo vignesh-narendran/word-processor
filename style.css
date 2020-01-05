@@ -1,0 +1,82 @@
+body {
+    background-color: #FFECE2;
+}
+
+::placeholder {
+    color: white;
+}
+
+.main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+.canvas {
+    background-color: #FF6A1A;
+    height: 100%;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #C84500;
+}
+
+.controls {
+    background-color: #FF9962;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+}
+
+.textbox,
+.textarea {
+    background-color: #FF9962;
+    border-radius: 10px;
+    height: 140px;
+    width: 290px;
+    border: none;
+}
+
+.textarea {
+    color: white;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    resize: none;
+}
+
+.biu-btn,
+.size-btn {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+}
+
+select {
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+#bold-btn {
+    font-weight: bold;
+}
+
+#italic-btn {
+    font-style: italic;
+}
+
+#underline-btn {
+    text-decoration: underline;
+}
